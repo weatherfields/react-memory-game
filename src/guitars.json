@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "image": "jaguar.png",
+    "isClicked": false
+  },
+  {
+    "id": 2,
+    "image": "Mustang400.png",
+    "isClicked": false
+  },
+  {
+    "id": 3,
+    "image": "lespaul400.png",
+    "isClicked": false
+  },
+  {
+    "id": 4,
+    "image": "sg400.png",
+    "isClicked": false
+  },
+  {
+    "id": 5,
+    "image": "star400.png",
+    "isClicked": false
+  },
+  {
+    "id": 6,
+    "image": "flyingv400.png",
+    "isClicked": false
+  },
+  {
+    "id": 7,
+    "image": "hofner400.png",
+    "isClicked": false
+  },
+  {
+    "id": 8,
+    "image": "pbass400.png",
+    "isClicked": false
+  },
+  {
+    "id": 9,
+    "image": "strat400.png",
+    "isClicked": false
+  },
+  {
+    "id": 10,
+    "image": "taka400.png",
+    "isClicked": false
+  },
+  {
+    "id": 11,
+    "image": "rick400.png",
+    "isClicked": false
+  },
+  {
+    "id": 12,
+    "image": "humm400.png",
+    "isClicked": false
+  }
+]
