@@ -1,36 +1,41 @@
 import React, { Component } from "react";
-// import PropTypes from "prop-types";
 import navGtrImg from "../../images/navGtr.png";
-// I will redo this component as functional because below is not necessary. Was just following a tutorial...
-export class Navbar extends Component {
-  // set default state of component so that I don't have to insert props in main app.js
-  static defaultProps = {
-    title: "Guitar Memory Click Game",
-    desc: "Click an image to begin!"
-  };
-  // not neccesary but good to have ... from what I've read.
-  // static PropTypes = {
-  //   title: this.PropTypes.string.isRequired,
-  //   desc: this.PropTypes.string.isRequired
-  // };
+import navGtrImgR from "../../images/MustangR500.png";
+import "./Navbar.css";
+
+class Navbar extends Component {
   render() {
     return (
       <nav className="navbar bg-primary">
-        <ul>
-          <li id="navImgGtr" className="nav-item">
-            <img src={navGtrImg} alt="Brown Hummingbird" />
-            <h1>{this.props.title}</h1>
+        <a id="gtr-title" href="/">
+          Guitar Memory Click Game
+        </a>
+        <ul id="pinkbear">
+          <li>
+            <a href="/">
+              <img id="navImgGtr" src={navGtrImg} alt="Brown Hummingbird" />
+            </a>
           </li>
-          <li className="nav-item">
-            <h2>{this.props.desc}</h2>
-          </li>
-          <li className="nav-item">
-            <span className="navbar-brand" id="score">
+          <li id="nav-item">
+            <span id="score">
               Score: {this.props.currentScore} | Top Score:{" "}
               {this.props.topScore}
             </span>
           </li>
+          <li>
+            <a href="/">
+              <img id="navImgGtrR" src={navGtrImgR} alt="Mustang" />
+            </a>
+          </li>
         </ul>
+        <div id="navText">
+          <p className="nav-text">
+            Click an image to begin! Click all 12 guitars only once to win! One
+            wrong click and you lose!
+          </p>
+          <p className="nav-text">Click a guitar in the header to reset!</p>
+          <span id="message">{this.props.message}</span>
+        </div>
       </nav>
     );
   }
