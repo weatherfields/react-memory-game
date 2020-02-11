@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-memory-game/static/css/main.ddb62c9d.chunk.css",
+    "main.js": "/react-memory-game/static/js/main.c737a922.chunk.js",
+    "main.js.map": "/react-memory-game/static/js/main.c737a922.chunk.js.map",
+    "runtime-main.js": "/react-memory-game/static/js/runtime-main.9ed46399.js",
+    "runtime-main.js.map": "/react-memory-game/static/js/runtime-main.9ed46399.js.map",
+    "static/js/2.20460e59.chunk.js": "/react-memory-game/static/js/2.20460e59.chunk.js",
+    "static/js/2.20460e59.chunk.js.map": "/react-memory-game/static/js/2.20460e59.chunk.js.map",
+    "index.html": "/react-memory-game/index.html",
+    "precache-manifest.eddba0887019b22b42ca4fc8fba4e579.js": "/react-memory-game/precache-manifest.eddba0887019b22b42ca4fc8fba4e579.js",
+    "service-worker.js": "/react-memory-game/service-worker.js",
+    "static/css/main.ddb62c9d.chunk.css.map": "/react-memory-game/static/css/main.ddb62c9d.chunk.css.map",
+    "static/js/2.20460e59.chunk.js.LICENSE.txt": "/react-memory-game/static/js/2.20460e59.chunk.js.LICENSE.txt",
+    "static/media/MustangR500.png": "/react-memory-game/static/media/MustangR500.ddccdd0b.png",
+    "static/media/Navbar.css": "/react-memory-game/static/media/StayWriter-Handmade.5394e488.otf",
+    "static/media/navGtr.png": "/react-memory-game/static/media/navGtr.f00c7770.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9ed46399.js",
+    "static/js/2.20460e59.chunk.js",
+    "static/css/main.ddb62c9d.chunk.css",
+    "static/js/main.c737a922.chunk.js"
+  ]
+}
