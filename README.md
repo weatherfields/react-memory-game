@@ -1,6 +1,6 @@
 # Guitar Clicky Game
 
-![guitar click game](./images/guitargame.png)
+https://weatherfields.github.io/react-memory-game/
 
 Test your memory skills with these cool looking guitars!
 
